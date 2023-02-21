@@ -10,8 +10,8 @@
     <h1>Travel Reservation Form</h1>
     <h2><b>* denotes mandotory</b></h2>
 
-    <h3 >Full name*:</h3>
-    <form> 
+    <h3 >Full name*:</h3> 
+    <Form>
         <div> 
             <input type="text" name="name" id="name" placeholder="Firstname_Lastname" required>
         </div>
@@ -31,7 +31,7 @@
                 <option value="France">France</option>
             </select>
         </div>
-        <div> 
+        <orm> 
             <h3>Arrival date*:</h3>
             <div> 
                 <input type="date" name="date" id="date" required>
@@ -41,26 +41,26 @@
                 <input type="number" name="numberofperson" id="persons" min="1" required value="1">
             </div>
         <div>
-            <h3>What would you want to avail?*: </h3> 
+            <h3> What would you want to avail?*: </h3>
             <input type="checkbox" name="fav">Boarding
             <input type="checkbox" name="fav">Fooding
             <input type="checkbox" name="fav">Sight seeing
+
         </div>
-        
-            <h3>Discount Coupon code:</h3>
         <div>
-            <input type="text" name="discount" placeholder="Unknown_Type"
+            <h3>Discount Coupon code:</h3>
+            <input type="text" name="discount" placeholder="Unknown_Type">
         </div>
-            
-        <h3>Terms and Conditions*:</h3>
-            <div> 
+        <div>   
+            <h3>Terms and Conditions*:</h3>
                 <input type="radio" name="Agree" required>I agree
                 <input type="radio" name="Disagree">I disagree
             </div>
-        
+        <br>
          <div>
             <input type="submit" value="Complete Reservation">
          </div>            
 
+        </form>
 </body>
 </html>
