@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Reservation</title>
+</head>
+<body>
+    <h1>Travel Reservation Form</h1>
+    <h2><b>* denotes mandotory</b></h2>
+
+    <h3 >Full name*:</h3>
+    <form> 
+        <div> 
+            <input type="text" name="name" id="name" placeholder="Firstname_Lastname" required>
+        </div>
+    <h3>Email Address*:</h3>
+        <div> 
+            <input type="email" name="EmailAddress" id="Email" placeholder="Email_Address" required>
+        </div>
+        <div> 
+     <h3>Select Tour Package*:</h3>
+        <div> 
+            <label type="select" name="select" id="Tour" required>
+            <select name="Tour" id="tour">
+                <option value="Gao">Goa</option>
+                <option value="Taiwan">Taiwan</option>
+                <option value="Laos">Laos</option>
+                <option value="Japan">Japan</option>
+                <option value="France">France</option>
+            </select>
+        </div>
+        <div> 
+            <h3>Arrival date*:</h3>
+            <div> 
+                <input type="date" name="date" id="date" required>
+            </div>           
+            <h3>Number of Persons*:</h3>
+            <div> 
+                <input type="number" name="numberofperson" id="persons" min="1" required value="1">
+            </div>
+        <div>
+            <h3>What would you want to avail?*: </h3> 
+            <input type="checkbox" name="fav">Boarding
+            <input type="checkbox" name="fav">Fooding
+            <input type="checkbox" name="fav">Sight seeing
+        </div>
+        
+            <h3>Discount Coupon code:</h3>
+        <div>
+            <input type="text" name="discount" placeholder="Unknown_Type"
+        </div>
+            
+        <h3>Terms and Conditions*:</h3>
+            <div> 
+                <input type="radio" name="Agree" required>I agree
+                <input type="radio" name="Disagree">I disagree
+            </div>
+        
+         <div>
+            <input type="submit" value="Complete Reservation">
+         </div>            
+
+</body>
+</html>
